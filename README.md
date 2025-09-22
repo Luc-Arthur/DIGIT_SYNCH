@@ -1,61 +1,114 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
-
 <p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+  <a href="https://laravel.com" target="_blank">
+    <img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo">
+  </a>
 </p>
 
-## About Laravel
+<p align="center">
+  <a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
+  <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
+  <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
+  <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+</p>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+---
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+# 📌 Plateforme de Gestion des Tâches et du Support IT
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## 📖 Description
+Ce projet est une **application web développée avec Laravel 11** qui centralise :  
+- La **gestion des projets** (mode Kanban),  
+- La **gestion des demandes IT (ticketing)**,  
+- L’**inventaire du matériel informatique**.  
 
-## Learning Laravel
+🎯 **Objectif :** Fournir une solution ergonomique, sécurisée et performante afin d’améliorer la **productivité** et la **collaboration** des équipes techniques et métiers.  
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+---
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+## 🚀 Fonctionnalités principales
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+### 🔹 Gestion de Projets
+- Tableaux Kanban interactifs (drag & drop)  
+- Attribution des tâches et deadlines  
+- Commentaires et pièces jointes sur les tâches  
+- Dashboard de suivi d’avancement  
 
-## Laravel Sponsors
+### 🔹 Ticketing IT
+- Création et suivi des tickets par catégorie  
+- Attribution manuelle ou automatique aux techniciens  
+- Système de priorités et filtres avancés  
+- Export Excel et base de connaissances intégrée  
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+### 🔹 Inventaire IT
+- Gestion des équipements (ajout, attribution, état)  
+- Suivi des garanties avec alertes automatiques  
+- Liaison des équipements avec les tickets  
+- Génération de QR codes pour le scanning  
 
-### Premium Partners
+---
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+## 🛠️ Stack Technique
+- **Backend :** Laravel 11 (PHP)  
+- **Frontend :** Blade, Livewire, Tailwind CSS  
+- **Base de données :** MySQL  
+- **Outils :** Composer, Artisan, Git, Laravel Excel  
 
-## Contributing
+---
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## 📂 Installation & Configuration
 
-## Code of Conduct
+### 🔧 Prérequis
+- PHP >= 8.2  
+- Composer  
+- MySQL >= 8  
+- Node.js & NPM  ### ⚙️ Étapes d’installation
+```bash
+# 1. Cloner le projet
+git clone https://github.com/[username]/gestion-it.git
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+# 2. Accéder au dossier du projet
+cd gestion-it
 
-## Security Vulnerabilities
+# 3. Installer les dépendances PHP
+composer install
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+# 4. Installer les dépendances front-end
+npm install && npm run dev
 
-## License
+# 5. Copier le fichier d'environnement
+cp .env.example .env
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+# 6. Générer la clé de l'application
+php artisan key:generate
+
+# 7. Configurer la base de données dans .env puis exécuter les migrations
+php artisan migrate --seed
+
+# 8. Lancer le serveur de développement
+php artisan serve
+```
+
+
+📊 Planification Prévisionnelle
+Phase	Durée estimée	Livrables
+Analyse & Design	2 semaines	Spécifications, maquettes
+Développement MVP	4 semaines	Modules core + authentification
+Intégration & Tests	2 semaines	Tests utilisateurs, corrections
+Déploiement & Formation	1 semaine	Documentation, formation équipes
+✅ Résultats Attendus
+
+Centralisation des processus IT et projets
+
+Suivi clair et en temps réel
+
+Réduction des pertes de temps liées aux échanges informels
+
+Code maintenable et extensible
+
+👤 Auteur
+
+Luc-Arthur LAWALE – Développement & Conception
+
+Stage réalisé chez KAS DIGIT
+
+Supervisé par Samuel Larios KIKI

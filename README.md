@@ -1,72 +1,70 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
-
 <p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+  <a href="https://laravel.com" target="_blank">
+    <img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo">
+  </a>
 </p>
 
+<p align="center">
+  <a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
+  <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
+  <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
+  <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+</p>
 
-📌 Plateforme de Gestion des Tâches et du Support IT
-📖 Description
+---
 
-Ce projet est une application web développée avec Laravel 11 qui centralise la gestion des projets, la gestion des demandes IT (ticketing) ainsi que l’inventaire du matériel informatique.
-L’objectif est de fournir une solution ergonomique, sécurisée et performante afin d’améliorer la productivité et la collaboration des équipes techniques et métiers.
+# 📌 Plateforme de Gestion des Tâches et du Support IT
 
-🚀 Fonctionnalités principales
-🔹 Gestion de Projets
+## 📖 Description
+Ce projet est une **application web développée avec Laravel 11** qui centralise :  
+- La **gestion des projets** (mode Kanban),  
+- La **gestion des demandes IT (ticketing)**,  
+- L’**inventaire du matériel informatique**.  
 
-Tableaux Kanban interactifs (drag & drop).
+🎯 **Objectif :** Fournir une solution ergonomique, sécurisée et performante afin d’améliorer la **productivité** et la **collaboration** des équipes techniques et métiers.  
 
-Attribution des tâches et gestion des deadlines.
+---
 
-Commentaires et pièces jointes sur les tâches.
+## 🚀 Fonctionnalités principales
 
-Dashboard de suivi d’avancement.
+### 🔹 Gestion de Projets
+- Tableaux Kanban interactifs (drag & drop)  
+- Attribution des tâches et deadlines  
+- Commentaires et pièces jointes sur les tâches  
+- Dashboard de suivi d’avancement  
 
-🔹 Ticketing IT
+### 🔹 Ticketing IT
+- Création et suivi des tickets par catégorie  
+- Attribution manuelle ou automatique aux techniciens  
+- Système de priorités et filtres avancés  
+- Export Excel et base de connaissances intégrée  
 
-Création et suivi des tickets par catégorie.
+### 🔹 Inventaire IT
+- Gestion des équipements (ajout, attribution, état)  
+- Suivi des garanties avec alertes automatiques  
+- Liaison des équipements avec les tickets  
+- Génération de QR codes pour le scanning  
 
-Attribution manuelle ou automatique aux techniciens.
+---
 
-Système de priorités et filtres avancés.
+## 🛠️ Stack Technique
+- **Backend :** Laravel 11 (PHP)  
+- **Frontend :** Blade, Livewire, Tailwind CSS  
+- **Base de données :** MySQL  
+- **Outils :** Composer, Artisan, Git, Laravel Excel  
 
-Export Excel et base de connaissances intégrée.
+---
 
-🔹 Inventaire IT
+## 📂 Installation & Configuration
 
-Gestion des équipements (ajout, attribution, état).
+### 🔧 Prérequis
+- PHP >= 8.2  
+- Composer  
+- MySQL >= 8  
+- Node.js & NPM  
 
-Suivi des garanties avec alertes automatiques.
-
-Liaison des équipements avec les tickets.
-
-Génération de QR codes pour le scanning.
-
-🛠️ Stack Technique
-
-Backend : Laravel 11 (PHP)
-
-Frontend : Blade, Livewire, Tailwind CSS
-
-Base de données : MySQL
-
-Outils : Composer, Artisan, Git, Laravel Excel
-
-📂 Installation & Configuration
-Prérequis
-
-PHP >= 8.2
-
-Composer
-
-MySQL >= 8
-
-Node.js & NPM
-
-Étapes d’installation
+### ⚙️ Étapes d’installation
+```bash
 # 1. Cloner le projet
 git clone https://github.com/[username]/gestion-it.git
 
@@ -90,7 +88,6 @@ php artisan migrate --seed
 
 # 8. Lancer le serveur de développement
 php artisan serve
-
 📊 Planification Prévisionnelle
 Phase	Durée estimée	Livrables
 Analyse & Design	2 semaines	Spécifications, maquettes
@@ -99,18 +96,18 @@ Intégration & Tests	2 semaines	Tests utilisateurs, corrections
 Déploiement & Formation	1 semaine	Documentation, formation équipes
 ✅ Résultats Attendus
 
-Centralisation des processus IT et projets.
+Centralisation des processus IT et projets
 
-Suivi clair et en temps réel.
+Suivi clair et en temps réel
 
-Réduction des pertes de temps liées aux échanges informels.
+Réduction des pertes de temps liées aux échanges informels
 
-Code maintenable et extensible.
+Code maintenable et extensible
 
 👤 Auteur
 
-Luc-Arthur LAWALE– Développement & Conception
+Luc-Arthur LAWALE – Développement & Conception
 
-Stage réalisé chez KAS DIGIT 
+Stage réalisé chez KAS DIGIT
 
-Supervisé par Samuel Larios KIKI 
+Supervisé par Samuel Larios KIKI

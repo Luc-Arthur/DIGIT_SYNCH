@@ -61,9 +61,7 @@ Ce projet est une **application web développée avec Laravel 11** qui centralis
 - PHP >= 8.2  
 - Composer  
 - MySQL >= 8  
-- Node.js & NPM  
-
-### ⚙️ Étapes d’installation
+- Node.js & NPM  ### ⚙️ Étapes d’installation
 ```bash
 # 1. Cloner le projet
 git clone https://github.com/[username]/gestion-it.git
@@ -88,6 +86,9 @@ php artisan migrate --seed
 
 # 8. Lancer le serveur de développement
 php artisan serve
+```
+
+
 📊 Planification Prévisionnelle
 Phase	Durée estimée	Livrables
 Analyse & Design	2 semaines	Spécifications, maquettes
